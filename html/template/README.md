@@ -137,11 +137,11 @@ template包使用的安全模型会假设模板的作者是可信的,而执行�
 - [func HTMLEscape(w io.Writer, b []byte)](HTMLEscape.md)
 - [func HTMLEscapeString(s string) string](HTMLEscapeString.md)
 - [func HTMLEscaper(args ...interface{}) string](HTMLEscaper.md)
-- func JSEscape(w io.Writer, b []byte)
-- func JSEscapeString(s string) string
-- func JSEscaper(args ...interface{}) string
-- func URLQueryEscaper(args ...interface{}) string
-- type CSS
+- [func JSEscape(w io.Writer, b []byte)](JSEscape.md)
+- [func JSEscapeString(s string) string](JSEscapeString.md)
+- [func JSEscaper(args ...interface{}) string](JSEscaper.md)
+- [func URLQueryEscaper(args ...interface{}) string](URLQueryEscaper.md)
+- [type CSS](CSS.md)
 - type Error
 	- func (e *Error) Error() string
 - type ErrorCode
