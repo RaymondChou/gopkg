@@ -142,9 +142,9 @@ template包使用的安全模型会假设模板的作者是可信的,而执行�
 - [func JSEscaper(args ...interface{}) string](JSEscaper.md)
 - [func URLQueryEscaper(args ...interface{}) string](URLQueryEscaper.md)
 - [type CSS](CSS.md)
-- type Error
-	- func (e *Error) Error() string
-- type ErrorCode
+- [type Error](Error.md)
+	- [func (e *Error) Error() string](ErrorError.md)
+- [type ErrorCode](ErrorCode.md)
 - type FuncMap
 - type HTML
 - type HTMLAttr
